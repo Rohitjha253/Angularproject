@@ -1,0 +1,30 @@
+{ 
+  "Jobs":[ 
+    {
+      "jobName": "Java Developer",
+      "Salary": 22222,
+      "Location": "bangalore",
+      "Skills": "java",
+      "Experience": "3-5 years",
+      "Education": "Bachelor's Degree in Computer Science",
+      "EmploymentType": "Full-time",
+      "Industry": "Information Technology",
+      "Company": "ABC Technologies",
+      "JobDescription": "We are looking for an experienced Java Developer to join our team and help us develop and maintain various software applications using Java programming language."
+      },
+  
+  {
+    "jobName": "Fullstack Developer",
+    "Salary": 100,
+    "Location": "Masco",
+    "Skills": "Html,CSS , React",
+    "Experience": "3-5 years",
+    "Education": "Bachelor's Degree in Computer Science",
+    "EmploymentType": "Full-time",
+    "Industry": "Information Technology",
+    "Company": "ABC Technologies",
+    "JobDescription": "We are looking for an experienced Java Developer to join our team and help us develop and maintain various software applications using Java programming language."
+  
+  }
+]
+}

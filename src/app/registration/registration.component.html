@@ -1,0 +1,72 @@
+
+<!-- <div>
+<form (submit)="registerUser(formData.value)" #form="ngForm" class="form-signin">
+    <h1 class="h3 mb-3 font-weight-normal">Register</h1>
+    <input type="text" placeholder="Name" [(ngModel)]="name" required>
+    <input type="email" placeholder="Email" [(ngModel)]="email" required>
+    <input type="password" placeholder="Password" [(ngModel)]="password" required>
+    <button type="submit">Register</button>
+  </form>
+</div> -->
+
+<!-- <div class="position-static">position-static</div>
+<div class="position-relative">..r.</div>
+<div class="position-absolute">.a..</div>
+<div class="position-fixed">.f..</div>
+<div class="position-sticky">s...</div> -->
+<!-- <div>
+<form (ngSubmit)="registerUser(form.value)" #form="ngForm"   class="container"  >
+
+    <div class="mb-3"  >
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div> 
+      <div class="row g-3 align-items-center" >
+        <div class="col-auto">
+          <label for="inputPassword6" class="col-form-label">Password</label>
+        </div>
+        <div class="col-auto" > -->
+          <!-- <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+        </div>
+        <div class="col-auto">
+          <span id="passwordHelpInline" class="form-text">
+            Must be 8-20 characters long.
+          </span> -->
+          <!-- <label for="inputPassword5" class="form-label">Password</label>
+<input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+<div id="passwordHelpBlock" class="form-text">
+  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+</div>
+        </div>
+      </div>
+       -->
+    <!-- <label>Name:</label>
+    <input type="text" name="name" ngModel placeholder="Email">
+  
+    <label>Email:</label>
+    <input type="email" name="email" ngModel placeholder="Password"> -->
+  
+   
+  
+    <!-- <button type="button" class="btn btn-dark">Register</button>
+  </form>
+  
+</div>
+</div> -->
+
+<div   class="container">
+  <form class="form-signin">
+
+    <h1 class="h3 mb-3 font-weight-normal">Register</h1>
+    <label for="name" class="sr-only"  [(ngModel)]="name">Name</label>
+    <input type="name"  [(ngModel)]="name" id="name" class="form-control" placeholder="Enter Name" required autofocus>
+    <label for="email" class="sr-only">Email address</label>
+    <input type="email"  [(ngModel)]="email"  id="email" class="form-control" placeholder="Email address" required autofocus>
+    <label for="inputPassword"  class="sr-only">Password</label>
+    <input type="password" [(ngModel)]="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <button type="button" (click)="onRegister()" class="btn btn-blue">Register</button>
+    
+
+  </form>
+
+</div>

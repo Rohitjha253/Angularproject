@@ -1,0 +1,17 @@
+<!-- <div class="container">
+    <h1>No jobs apply we will notify you soon</h1> -->
+
+<!-- </div> -->
+<div  *ngIf="data">
+        
+          <div class="card" *ngFor="let item of data">
+            <div class="card-body">
+                <h5>Job Title :{{ item.jobName}}</h5>
+                <p> Salary :{{ item.Salary }} </p>
+                <p>Skill: {{item.Skill}}</p>
+                
+                <button type="button" (click)="onSuccess()" class="btn btn-blue">Apply for job</button>
+            </div>
+          </div>
+        
+</div>
